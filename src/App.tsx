@@ -42,11 +42,14 @@ const useStyles = makeStyles({
 });
 
 const initialData = {
-  name: 'Send email to Adrian',
-  description: 'Confirm if you have passed the subject\nHereby ...',
-  done: true,
-  recurrence: 'Daily',
-  rating: 3,
+  "a[b][c][d]": {
+    min: 0,
+    max: 1
+  },
+  a: {
+    min: 0,
+    max: 1
+  }
 };
 
 const renderers = [
